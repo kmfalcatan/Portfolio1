@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(52,78,65);
+    background: url(/POrtfolio/picture/hi!\ i’m\ km\ a\ front\ developer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    outline: red dashed 1px;
+    height: 55.7rem;
+}
+
+.textContainer{
+    outline: red dashed 1px;
+    height: 10rem;
+    z-index: 1;
+}

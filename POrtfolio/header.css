@@ -1,0 +1,71 @@
+.headerContainer{
+    outline: red dashed 1px;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(52,78,65);
+    position: fixed;
+}
+
+.menubarContainer{
+    padding-top: 2px;
+    width: 3.125rem;
+    height: 3rem;
+}
+
+.line{
+    border: solid 0.125rem;
+    width: 1.563rem;
+    margin-bottom: 0.313rem;
+    margin-top: 0.5rem;
+    margin-left: 0.563rem;
+    border-color: rgb(163,177,138);
+}
+
+.change .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-9px, 0.625rem);
+}
+
+.change .line:nth-child(2) {
+    opacity: 0;
+}
+
+.change .line:nth-child(3) {
+    transform: rotate(45deg) translate(-0.438rem, -0.5rem);
+}
+
+.addToCartContainer, .notificationContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addToCart, .notification, .menubarContainer{
+    position: relative;
+    cursor: pointer;
+}
+
+.logoContainer{
+    outline: red dashed 1px;
+    height: 100%;
+    width: 13rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.subLogoContainer{
+    outline: red dashed 1px;
+    background-color: rgb(88,129,87);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5rem;
+    margin-right: 1rem;
+}
+
+.nameContainer{
+    color: rgb(125, 182, 39);
+    font-size: 1.5rem
+}
