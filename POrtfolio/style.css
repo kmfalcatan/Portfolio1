@@ -15,6 +15,7 @@ body{
 .container{
     outline: red dashed 1px;
     height: 55.7rem;
+    padding-top: 10rem;
 }
 
 .textContainer{
